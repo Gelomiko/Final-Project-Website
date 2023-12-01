@@ -1,0 +1,59 @@
+*{
+    font: fantasy;
+}
+header{
+    font-size: xx-large;
+    font-family: fantasy;
+    text-align: center;
+    background: rgb(35, 35, 189);
+}
+nav{
+    background:rgb(50, 50, 173);
+    float: aqua;
+    padding: 1px;
+    outline: solid black;
+}
+nav a{
+    color: bisque;
+}
+body{
+    background: cornflowerblue;
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 5px;
+}
+.grid-item{
+    background-color: pink;
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30;
+    text-align: center;
+}
+.grid-container>div{
+    background-color: rgb(110, 112, 207);
+    border: 1px solid black;
+    padding: 20px;
+    font-size: 30;
+    text-align: center;
+}
+.item1{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.item2{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.item3{
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+.item4{
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.item2 a{
+    color: bisque;
+}
