@@ -1,9 +1,11 @@
-/* Bordered form */
+body{
+    background: lightseagreen;
+}
 form {
     border: 3px solid #f1f1f1;
   }
   
-  /* Full-width inputs */
+
   input[type=text], input[type=password] {
     width: 100%;
     padding: 12px 20px;
@@ -13,9 +15,9 @@ form {
     box-sizing: border-box;
   }
   
-  /* Set a style for all buttons */
+
   button {
-    background-color: #04AA6D;
+    background-color: #472cac;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
