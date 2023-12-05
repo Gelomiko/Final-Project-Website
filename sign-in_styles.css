@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 body{
@@ -12,7 +13,6 @@ body{
 .container h1, .container p, .container b{
   display: inline;
   word-wrap: normal;
-  background-color: rgb(79, 106, 179);
 } 
 
 
@@ -22,11 +22,11 @@ input[type=text], input[type=password] {
   margin: 5px 0 22px 0;
   display: inline-block;
   border: none;
-  background: #339c94;
+  background: lightgrey;
 }
 
 input[type=text]:focus, input[type=password]:focus {
-  background-color: #339c94;
+  background-color: lightgrey;
   outline: none;
 }
 
@@ -60,4 +60,5 @@ a {
 
 .signin {
   text-align: center;
+  color: lightgray;
 }
