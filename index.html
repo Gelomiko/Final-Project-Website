@@ -1,74 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Haven</title>
-</head>
-<body>
-    <header>Welcome to Haven</header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="animation.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="sub-menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a id="about-button">About</a></li>
+        <li><a href="#">Help Desk</a></li>
+        <li><a href="sign-in.html">Sign-in</a></li>
+        <li><a href="log-in.html">Log-in</a></li>
+      </ul>
+    </div>
+
     <nav>
-        <ul>
-            <a href="sign-in.html">Sign-in</a></li>
-            <a href="log-in.html">Log-in</a></li>
-        </ul>
+      <div class="options">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
     </nav>
-        <div class="grid-container">
-            <div class="item1">
-                <h1>What's Happening</h1>
-                <p>Onestop shop for all your fandom desires! 
-                    Are you curious if there are any updates
-                    on GTA VI? Perhaps you want to know which is better Baldur's Gate or Spider-man 2?
-                    Want updates on your favorite Youtubers/Streamers?
-                    Loki Season 2 and why it's the best thing Marvel created
-                    Invincible season 2? Mark should really be with Eve at this point?
-                    Solo leveling anime to release 2024
-                    AOT final episode aired where do you stand? Other anime
-                    recieving updates as well</p>
-            </div>
-            <div class="item2">
-                <h2>Communities we have available</h2>
-                <p><ul>
-                    <li>Anime</li>
-                    <li>Comics</li>
-                    <li>DC</li>
-                    <li>Manwhas</li>
-                    <li>Marvel</li>
-                    <li>Tekken</li>
-                    <li>Transformers</li>
-                    <li>Undertale</li>
-                 </ul>
-                </p>
-                <p>If the fanbase you're looking for isnt here, no worries.
-                    Just fill out this form <a href="fandomform.html">here</a>
-                </p>
-            </div>
-            <div class="item3">
-                <h2>Famous Debates</h2>
-                <h5>Keep the peace! If you feel too heated take a break from your keyboard
-                    We do not tolerate hate of any kind
-                    Cussing is allowed, however excessive bullying or keyboard warriors aren't
-                    IF CAUGHT will result in a permanent ban
-                </h5>
-                <p>
-                    <ul>
-                        <li>Goku vs Superman</li>
-                        <li>Who can solo the which universe</li>
-                        <li>Best version of Transformers</li>
-                        <li>Who is the Batman equivalent in Marvel</li>
-                    </ul>
-                </p>
-            </div>
-            <div class="item4">
-                <h2>About</h2>
-                <p>
-                    Here at Haven we are dedicated to providing a community where 
-                    everyone is welcome! We'll do our best to match you with those who
-                    have similar interests and perhaps help you make 
-                    a new lifelong friend
-                </p>
-            </div>
-        </div>
+
+    <script src="animate.js"></script>
+    <div class="whatnew">
+        <h1>What's Happening</h1>
+          <p>
+            Onestop shop for all your fandom desires! 
+            Are you curious if there are any updates
+            on GTA VI? Perhaps you want to know which is better Baldur's Gate or Spider-man 2?
+            Want updates on your favorite Youtubers/Streamers?
+            Loki Season 2 and why it's the best thing Marvel created
+            Invincible season 2? Mark should really be with Eve at this point?
+            Solo leveling anime to release 2024
+            AOT final episode aired where do you stand? Other anime
+            recieving updates as well
+          </p>
+    </div>
+    <br>
+    <hr>
+    
+  <div class="communities">
+    <h2>Our Communites</h2>
+    <table>
+        <tr>
+            <th>
+                <div class="demonslay">
+                    <a href="kimetsu-yaiba.html"><img src="kimetsu yaiba.png" alt="DEMONSLAYER" class="avatar"></a>
+                </div>
+            </th>   
+            <th>
+                <div class="onepiece">
+                    <a href="onep.html"><img src="one piece.png" alt="ONPI" class="avatar"></a>
+                </div>
+            </th>
+            <th>
+                <div class="dc">
+                    <a href="dc.html"><img src="dc.png" alt="DC" class="avatar"></a>
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <th>
+                <div class="sololvl">
+                    <a href="solo.html"><img src="solo-lvling.png" alt="sololvl" class="avatar"></a>
+                </div>
+            </th>
+            <th>
+                <div class="marvel">
+                    <a href="marvel.html"><img src="marvel.png" alt="MARVEL" class="avatar"></a>
+                </div>
+            </th>
+            <th>
+                <div class="tekken">
+                    <a href="tekken.html"><img src="tekken.png" alt="tekken" class="avatar"></a>
+                </div>
+            </th>
+        </tr>
+    </table>
+      <p>If the fanbase you're looking for isnt here, no worries.
+          Just fill out this form <a href="fandomform.html">here</a>
+      </p>
+  </div>
+  <br>
+  <hr>
+  
+  <div class="debates">
+      <h2>Famous Debates</h2>
+      <h5>Keep the peace! If you feel too heated take a break from your keyboard
+          We do not tolerate hate of any kind
+          Cussing is allowed, however excessive bullying or keyboard warriors aren't
+          IF CAUGHT will result in a permanent ban
+      </h5>
+      <p>
+          <ul>
+              <li>Goku vs Superman</li>
+              <li>Who can solo the which universe</li>
+              <li>Best version of Transformers</li>
+              <li>Who is the Batman equivalent in Marvel</li>
+          </ul>
+      </p>
+  </div>
+  <br>
+  <hr>
+
+  <footer>
+    <h2>About</h2>
+    <p>
+        Here at Haven we are dedicated to providing a community where 
+        everyone is welcome! We'll do our best to match you with those who
+        have similar interests and perhaps help you make 
+        a new lifelong friend
+    </p>
+  </footer>
 </body>
+</html>
+  </body>
 </html>
