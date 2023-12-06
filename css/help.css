@@ -1,0 +1,36 @@
+body{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+form{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+
+form label{
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+input[type=text], input[type=email]{
+    width: auto;
+    height: auto;
+    border: solid black;
+}
+
+input .textbox{
+    width: auto;
+    height: auto;
+    border: solid black;
+}
+
+input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+    width: 100%;
+}
+.cancelbtn{
+    display: inline;
+    text-wrap: wrap;
+}

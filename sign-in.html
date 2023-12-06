@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="sign-in_styles.css">
+    <link rel="stylesheet" href="../css/sign-in_styles.css">
     <title>Document</title>
 </head>
 <body>
-    <form action="action_page.php">
+    <form action="https://api.web3forms.com/submit" method="post">
+      <input type="hidden" name="access_key"  class="info" value="5ef3f2c3-df84-4411-bf5a-422cc5b88d62">
         <div class="container">
           <h1>Register</h1>
           <br>
@@ -62,5 +63,6 @@
           <p>Already have an account? <a href="log-in.html">Log in</a>.</p>
         </div>
       </form>
+      <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>

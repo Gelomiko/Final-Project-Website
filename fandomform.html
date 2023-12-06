@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fandomform.css">
+    <link rel="stylesheet" href="../css/fandomform.css">
     <title>Fandom</title>
 </head>
 <body>
-    <form action="action_page.php" method="post">
+    <form action="https://api.web3forms.com/submit" method="post">
+        <input type="hidden" name="access_key"  class="info" value="5ef3f2c3-df84-4411-bf5a-422cc5b88d62">
         <h2>What Fandoms are you interested in?</h2>
         <div class="container">
             <label for="choose"><b>Choose a Fandom</b></label> 
@@ -40,6 +41,9 @@
             <label for="option1"><b>Cartoons</b></label>
             <input type="checkbox">
         </div>
+        <div class="fcf-form-group">
+            <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+        </div>
 
     </form>
     <div class="concerns">
@@ -49,10 +53,11 @@
             Send us an email <a href="help.html">here</a>
         </p>
     </div>
+   
     <div class="container" style="background-color:rgb(47, 47, 218)">
         <button type="button" class="cancelbtn">
           <a href="index.html">Cancel</a>
         </button>
-    
+        <script src="https://web3forms.com/client/script.js" async defer></script>
 </body>
 </html>
